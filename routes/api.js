@@ -1507,7 +1507,7 @@ can.context.drawImage(bg, 320, 0, 709, 360)
     canvas.context.textAlign = 'start'
     canvas.context.fillText(shortText(name, 40), 420, 420)
     canvas.context.font = '35px creme'
-    canvas.context.fillText(`${shortText(member, 10)} th member`, 430, 490)
+    canvas.context.fillText(`${shortText(member, 10)} th member`, 420, 440)
     canvas.context.beginPath()
     canvas.context.arc(174, 279, 110, 0, Math.PI * 2, true)
     canvas.context.closePath()
